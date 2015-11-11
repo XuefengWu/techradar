@@ -59,7 +59,8 @@ var radar_data = [
             {"name":"Blue/Read Deployment", "pc":{"r":110,"t":165},"movement":"c"},   
             {"name":"CI", "pc":{"r":110,"t":165},"movement":"c"},            
             { "name": "Health Monitor", "pc": { "r": 125, "t": 120 }, "movement": "c" },
-            { "name": "Stateless", "pc": { "r": 135, "t": 120 }, "movement": "c" },                
+            { "name": "Stateless", "pc": { "r": 135, "t": 120 }, "movement": "c" },
+            { "name": "anti-corruption layer", "pc": { "r": 155, "t": 120 }, "movement": "c" },                
             {"name":"Gray Deployment", "pc":{"r":205,"t":120},"movement":"c"},
             { "name": "Realtime Alarm", "pc": { "r": 225, "t": 120 }, "movement": "c" },
             {"name":"Automated Remediation", "pc":{"r":250,"t":165},"movement":"c"}                              
@@ -76,8 +77,7 @@ var radar_data = [
             { "name": "The Twelve-Factor App", "pc": { "r": 110, "t": 165 }, "movement": "c" },
             { name: 'Semantic API', pc: { r: 120, t: 19 }, movement: 'c' },
             { name: 'React Programming', pc: { r: 170, t: 19 }, movement: 't' },
-            { name: 'DDD', pc: { r: 190, t: 19 }, movement: 't' },
-            
+            { name: 'DDD', pc: { r: 190, t: 19 }, movement: 't' },            
             { name: 'Function as Service', pc: { r: 270, t: 19 }, movement: 't' },                                   
             { name: 'Actor', pc: { r: 270, t: 19 }, movement: 't' }
   ]
@@ -93,10 +93,17 @@ var radar_data = [
             { name: 'DNS', pc: { r: 90, t: 278 }, movement: 'c' },
             { "name": "EC2", "pc": { "r": 110, "t": 195 }, "movement": "c" },   
             { "name": "Container", "pc": { "r": 130, "t": 230 }, "movement": "c" },
-            
-            { "name": "flume", "pc": { "r": 180, "t": 195 }, "movement": "c" },
-            { "name": "Elastic Search", "pc": { "r": 190, "t": 195 }, "movement": "c" },                        
-            { "name": "Kafkar", "pc": { "r": 230, "t": 195 }, "movement": "c" },                        
+            { "name": "service register and discover", "pc": { "r": 150, "t": 230 }, "movement": "c" },
+            { "name": "API gateway", "pc": { "r": 160, "t": 195 }, "movement": "c" },            
+            { "name": "log flume", "pc": { "r": 180, "t": 195 }, "movement": "c" },
+            { "name": "circuit breaker", "pc": { "r": 180, "t": 195 }, "movement": "c" },
+            { "name": "router and load balance/DNS", "pc": { "r": 190, "t": 230 }, "movement": "c" },
+            { "name": "bulkheads", "pc": { "r": 195, "t": 230 }, "movement": "c" },
+            { "name": "Elastic Search", "pc": { "r": 190, "t": 195 }, "movement": "c" },
+            { "name": "living document", "pc": { "r": 210, "t": 195 }, "movement": "c" },
+            { "name": "SLA", "pc": { "r": 220, "t": 195 }, "movement": "c" },                        
+            { "name": "Kafkar", "pc": { "r": 230, "t": 195 }, "movement": "c" },
+            { "name": "kubernetes", "pc": { "r": 250, "t": 195 }, "movement": "c" },                        
             { "name": "Mesos", "pc": { "r": 270, "t": 225 }, "movement": "c" },     
             {"name":"Open Stack", "pc":{"r":270,"t":225},"movement":"c"}            
 
